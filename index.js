@@ -238,7 +238,7 @@ client.once(Events.ClientReady, async () => {
 
   // Set custom status
   client.user.setPresence({
-    activities: [{ name: '💼 View #hire_lofy to hire! 💼', type: 0 }],
+    activities: [{ name: '💼 View #hire-lofy to hire! 💼', type: 0 }],
     status: 'idle'
   });
 
